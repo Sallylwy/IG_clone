@@ -1,3 +1,5 @@
+import {Search} from 'react-bootstrap-icons'
+
 const SearchBar = () => {
     return (
     <div style={{
@@ -24,7 +26,7 @@ const SearchBar = () => {
           fontSize: '18px',
           color: '#aaa',
         }}>
-          🔍 {/* Search icon */}
+          <Search/>
         </span>
       </div>
     );
